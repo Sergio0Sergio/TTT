@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MainWindow extends JFrame {
-String ssss;
+String sssss;
 
 
 }
