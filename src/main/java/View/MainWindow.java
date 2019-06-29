@@ -34,7 +34,7 @@ public MainWindow(@Value("${width}") int width,
   buffer = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
   bufferData = ((DataBufferInt) buffer.getRaster().getDataBuffer()).getData();
   bufferGraphics = buffer.getGraphics();
-  clearColor = _clearColor
+  clearColor = _clearColor;
 }
 
 public void clear(){
