@@ -42,7 +42,8 @@ public void clear(){
 }
 
 public void render(){
-
+Graphics g = getContentPane().getGraphics();
+g.drawImage(buffer, 0,0, null);
 }
 
 public void swapBuffers(){
